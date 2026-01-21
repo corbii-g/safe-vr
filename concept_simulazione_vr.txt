@@ -4,8 +4,7 @@ Simulazione VR di edifici in stato di emergenza.
 Essenziali:
 - Sistema di movimento e visualizzazione in VR;
 - Edifici:
-	- Pavimento e soffitto statici (hardcoddati);
-	- Muri e uscite dinamici (height map/json).
+	- Mappa I.T.I.S. Archimede
 - Algoritmo Pathfinder:
 	- Unity (?);
 	- A*.
@@ -15,7 +14,7 @@ Facoltativi principali:
 	- Scelta livello:
 		- Scelta difficoltà
 - GUI (Graphic User Interface)
-	- Menù(pausa):5                             
+	- Menù(pausa):                            
 		- Riprendi
 		- Impostazioni (?)
 		- Esci
@@ -42,3 +41,4 @@ Divisione Compiti:
 - Bagnato: 
 - Chen: 
 - Corbetta: 
+
