@@ -1,0 +1,44 @@
+Progetto:
+Simulazione VR di edifici in stato di emergenza.
+
+Essenziali:
+- Sistema di movimento e visualizzazione in VR;
+- Edifici:
+	- Pavimento e soffitto statici (hardcoddati);
+	- Muri e uscite dinamici (height map/json).
+- Algoritmo Pathfinder:
+	- Unity (?);
+	- A*.
+
+Facoltativi principali:
+- Start menu:
+	- Scelta livello:
+		- Scelta difficoltà
+- GUI (Graphic User Interface)
+	- Menù(pausa):5                             
+		- Riprendi
+		- Impostazioni (?)
+		- Esci
+	- Obiettivo + Difficoltà
+	- Indicatore Piano (se ci saranno più piani)
+	- Tempo
+- Più piani mappa;
+- Ostacoli;
+- Suono;
+- Oggetti di scena (corridoio);
+
+Facoltativi secondari:
+- Stanze (statiche);
+- Oggetti di scena (stanze);
+- Oggetti interagibili(pulsanti, luci, ecc.);
+
+Falcoltativi terziari:
+- Interazione dinamica (Prendere e usare oggetti);
+- Inventario;
+- Puzzle;
+- Stanze dinamiche;
+
+Divisione Compiti:
+- Bagnato: 
+- Chen: 
+- Corbetta: 
