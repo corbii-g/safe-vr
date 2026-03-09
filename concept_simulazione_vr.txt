@@ -29,7 +29,7 @@ Facoltativi principali:
 Facoltativi secondari:
 - Stanze (statiche);
 - Oggetti di scena (stanze);
-- Oggetti interagibili(pulsanti, luci, ecc.);
+- Oggetti interagibili (pulsanti, luci, ecc.);
 
 Falcoltativi terziari:
 - Interazione dinamica (Prendere e usare oggetti);
