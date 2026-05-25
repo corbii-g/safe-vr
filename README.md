@@ -8,7 +8,7 @@ SAFE VR è un'applicazione in realtà virtuale (VR) progettata per la simulazion
 
 Il software è stato ingegnerizzato per essere altamente scalabile e adattabile. 
 
-L'attuale istanza include la mappatura dettagliata dell'istituto I. S. Archimede di Trevigio (BG), ma l'architettura è predisposta per scalare rapidamente. 
+L'attuale istanza include la mappatura dettagliata dell'istituto I. S. Archimede di Treviglio (BG), ma l'architettura è predisposta per scalare rapidamente. 
 Il sistema è progettato per importare ed elaborare **qualsiasi modello 3D architettonico** (es. aziende, ospedali, centri commerciali, scuole). 
 Una volta inserito il modello tridimensionale, gli algoritmi proprietari di navigazione e gestione dell'ambiente si adattano automaticamente alla nuova planimetria. 
 
