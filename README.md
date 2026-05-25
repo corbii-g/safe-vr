@@ -1,32 +1,54 @@
 # SAFE VR: Simulate And Feel Emergencies
 
-SAFE VR è un'applicazione in realtà virtuale (VR) progettata per la simulazione, l'addestramento e l'ottimizzazione delle procedure di evacuazione all'interno di strutture ed edifici complessi in stato di emergenza.
+SAFE VR è una soluzione avanzata di realtà virtuale (VR) progettata per la simulazione, l'addestramento e l'ottimizzazione delle procedure di evacuazione in edifici complessi in stato di emergenza.
 
 ---
 
 ## Overview del Progetto
 
-Il software è stato ingegnerizzato per essere altamente scalabile e adattabile. 
-
-L'attuale istanza include la mappatura dettagliata dell'istituto I. S. Archimede di Treviglio (BG), ma l'architettura è predisposta per scalare rapidamente. 
-Il sistema è progettato per importare ed elaborare **qualsiasi modello 3D architettonico** (es. aziende, ospedali, centri commerciali, scuole). 
-Una volta inserito il modello tridimensionale, gli algoritmi proprietari di navigazione e gestione dell'ambiente si adattano automaticamente alla nuova planimetria. 
+Le tradizionali prove di evacuazione risultano spesso poco efficaci a causa della mancanza di coinvolgimento e della staticità dei protocolli. 
+SAFE VR trasforma l'addestramento in un'esperienza immersiva, permettendo agli utenti di testare i propri tempi di reazione e le proprie decisioni in scenari di emergenza realistici. 
+Grazie alla sua architettura modulare, il sistema è scalabile e può essere adattato rapidamente a qualsiasi planimetria 3D.
 
 ---
 
 ## Feature Principali
 
-Il framework si divide in macro-moduli funzionali e configurabili in base alle esigenze della simulazione: 
+L'applicativo è caratterizzato da varie funzionalità principali:
 
-*   **Sistema VR Core**: Implementazione del sistema di movimento, tracciamento della visuale e interazione base in ambiente Virtual Reality.
-*   **Algoritmo Pathfinder**: Sistema di navigazione intelligente per il calcolo delle vie di fuga ottimali, implementato tramite **Algoritmo A***.
-*   **Supporto Multi-Piano**: Gestione verticale della navigazione per strutture disposte su più livelli con indicatori di piano in tempo reale.
+*  **Esperienza Immmersiva**: Implementazione del sistema di movimento, tracciamento della visuale e interazione base in VR, per garantire un'immedesimazione dell'utente nella simulazione.
+
+*  **Scalabilità del programma**: Possibilità di adattare l'applicazione a qualunque struttura desiderata, attraverso l'importazione del modello 3D di quest'ultima, attraverso l'adattamento automatico di algoritmi proprietari di navigazione e gestione dell'ambiente alla nuova planimetria.
+
+*  **Versatilità di utilizzo**: Possibilità di eseguire il programma sia su un qualunque PC, come semplice programma 3D, sia in VR, per un'esperienza più immersiva.
 
 ---
 
 ## Stack Tecnologico
 
-*   **Game Engine**: Unity
-*   **Tecnologia VR**: XR Interaction Toolkit / OpenXR (Compatibilità estesa con i principali visori sul mercato)
-*   **Linguaggio di Programmazione**: C#
-*   **Architettura Logica**: Algoritmo di Pathfinding A* custom / Unity NavMesh Integration
+### Simulazione di evacuazioni
+*  **Game Engine**: Unity
+*  **Linguaggio di Programmazione**: C#
+*  **VR SDK**: XR Interaction Toolkit
+
+### Modellazione 3D
+*  **Software**: AutoCAD, Blender
+
+### Sito web di presentazione
+*  **Framework**: React (Vite)
+*  **Linguaggi**: JavaScript, HTML, CSS
+*  **Deployment**: Vercel
+
+---
+
+## Future Implementazioni
+
+Il progetto è in costante evoluzione. Le prossime milestone includono:
+
+*  **Audio & Visual Overhaul**: Implementazione di sistemi audio spaziali ed effetti particellari migliori per aumentare il realismo.
+
+*  **Sistema di Difficoltà**: Introduzione di variabili di difficoltà (ostacoli imprevisti, blocchi delle uscite, timer stringenti).
+
+*  **Interattività Avanzata**: Sistema di interazione fisica con oggetti di emergenza (es. utilizzo corretto di estintori, aperture di porte antincendio).
+
+*  **Dashboard delle Statistiche**: Implementazione di una dashboard riassuntiva delle prestazioni dell'utente, per visualizzare i punti di debolezza e migliorare la performance.
