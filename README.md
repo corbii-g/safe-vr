@@ -16,17 +16,17 @@ Grazie alla sua architettura modulare, il sistema è scalabile e può essere ada
 
 L'applicativo è caratterizzato da varie funzionalità principali:
 
-*  **Esperienza Immmersiva**: Implementazione del sistema di movimento, tracciamento della visuale e interazione base in VR, per garantire un'immedesimazione dell'utente nella simulazione.
+*  **Esperienza Immersiva**: Supporto nativo per visori VR e modalità Desktop tradizionale, garantendo massima accessibilità.
 
-*  **Scalabilità del programma**: Possibilità di adattare l'applicazione a qualunque struttura desiderata, attraverso l'importazione del modello 3D di quest'ultima, attraverso l'adattamento automatico di algoritmi proprietari di navigazione e gestione dell'ambiente alla nuova planimetria.
+*  **Scalabilità Dinamica**: Algoritmi proprietari analizzano il modello 3D importato per generare automaticamente percorsi di navigazione e gestire le dinamiche di evacuazione.
 
-*  **Versatilità di utilizzo**: Possibilità di eseguire il programma sia su un qualunque PC, come semplice programma 3D, sia in VR, per un'esperienza più immersiva.
+*  **Gestione dell'Emergenza**: Simulazione realistica dei flussi di uscita e dei comportamenti da adottare sotto stress.
 
 ---
 
 ## Stack Tecnologico
 
-### Simulazione di evacuazioni
+### Simulazione VR / Desktop
 *  **Game Engine**: Unity
 *  **Linguaggio di Programmazione**: C#
 *  **VR SDK**: XR Interaction Toolkit
